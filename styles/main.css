@@ -1,0 +1,239 @@
+/*                           Reset start                         */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+/*                                 Reset end                       */
+
+/*                       Header start               */
+header {
+	height: 650px;
+	width: 1340px;
+	background-color: aqua;
+}
+
+nav {
+	height: 70px;
+	padding: 20px 80px 0 100px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+ul {
+	display: flex;
+	gap: 20px;
+}
+
+button {
+	margin: 0 5px;
+	padding: 8px 18px;
+	border-radius: 5px;
+	border: 2px aqua solid;
+	color: green;
+}
+
+.button_green {
+	background-color: green;
+	color: rgb(255, 240, 240);
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.image_header {
+	height: 580px;
+	color: #000;
+	background-image: url(../images/sofa_header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+h1 {
+	font-size: 40px;
+	width: 400px;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.paragraph_header {
+	margin-bottom: 40px;
+}
+/*                     header end                    */
+/*                      main start                   */
+main {
+	height: 2000px;
+	width: 1340px;
+}
+
+.popular_categories {
+	height: 550px;
+	width: 1340px;
+	padding: 100px 50px 0 50px;
+}
+
+figure {
+	position: absolute;
+}
+
+.living {
+	position: absolute;
+	bottom: 20px;
+	left: 60px;
+	background-color: rgba(0, 0, 0, 0.12);
+	color: aqua;
+	padding: 7px 40px;
+}
+
+.bedroom {
+	position: absolute;
+	bottom: 20px;
+	left: 370px;
+	background-color: rgba(0, 0, 0, 0.12);
+	color: aqua;
+	padding: 7px 40px;
+} 
+
+.bathroom {
+	position: absolute;
+	bottom: 20px;
+	left: 680px;
+	background-color: rgba(0, 0, 0, 0.12);
+	color: aqua;
+	padding: 7px 40px;
+}
+
+.kitchen {
+	position: absolute;
+	bottom: 20px;
+	right: 40px;
+	background-color: rgba(0, 0, 0, 0.12);
+	color: aqua;
+	padding: 7px 40px;
+}
+
+img {
+	border-radius: 10px;
+	margin: 7px;
+}
+
+.heading_2_popular {
+	margin: 0 0 20px 7px;
+}
+
+.heading_3_popular {
+	margin-bottom: 5px;
+}
+
+.discover_best_furniture {
+	height: 550px;
+	width: 1340px;
+	padding: 40px 50px;
+}
+
+.discover_fur {
+	display: flex;
+}
+
+.about_us {
+	height: 450px;
+	width: 1340px;
+	display: flex;
+	margin: 50px 0 0 0;
+}
+
+.info_about_us {
+	width: 600px;
+	height: 600px;
+	padding: 50px 100px 0 100px;
+}
+
+.heading_3_about_us {
+	margin: 15px 0;
+	font-size: 30px;
+}
+
+.paragraph_about_us {
+	width: 360px;
+	line-height: 20px;
+	margin-bottom: 25px;
+}
+
+.image_about_us {
+	margin-left: -20px;
+}
+
+.button_order {
+	margin-left: 20px;
+}
+
+.happy_customer_div {
+	height: 550px;
+	width: 1340px;
+	background-color: #000;
+	color: white;
+	padding: 0 100px;
+	display: flex;
+}
+
+.happy_customer {
+	margin: 200px 0 0 0;
+	width: 500px;
+}
+
+.heading_2_happy {
+	margin: 20px 0 40px 0;
+}
+
+.comment {
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 18px 10px 5px 10px;
+	background-color: white;
+	color: #000;
+	margin: 20px 20px 20px 10px;
+	width: 300px;
+	height: 200px;
+}
+
+.comment_div {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 200px;
+}
+
+.heading_3_comment {
+	margin-bottom: 10px;
+}
+
+.p_goods {
+	color: green;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
